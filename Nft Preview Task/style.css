@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    }
+
+    .bg{
+        height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+div{
+    text-align: center;
+}
+
+.text{
+    text-align: left;
+    margin: 20px;
+}
+
+.text h5{
+    color: white;
+    /* padding-bottom: 10px; */
+}
+
+.text p{
+    color: hsl(215, 51%, 70%);
+}
+
+/* .card h4, h5{
+    color: white;
+} */
+.eth{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.eth img{
+    height: 10px;
+    width: 10px;
+}
+
+.eth-flex{
+    display: flex;
+    align-items: center;
+}
+
+.eth-flex p span:first-child{
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-flex span:last-child{
+    color: hsl(215, 51%, 70%);
+}
+
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.avatar img{
+    height: 20px;
+    width: 20px;
+}
+
+.avatar span{
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar p{
+    color: white;
+}
